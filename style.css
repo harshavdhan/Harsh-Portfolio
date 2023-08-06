@@ -207,12 +207,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* border: 2px solid green;     */
+
 }
 
 .card {
     border: 2px solid black;
     height: 500px;
+    width: 400px;
     border-radius: 10%;
     background-color: #fff;
     display: flex;
@@ -225,7 +226,6 @@ main {
     width: 350px;
     height: 300px;
     border-radius: 10%;
-    /* margin: 10px; */
     margin:0 10px ;
 }
 
@@ -236,7 +236,7 @@ main {
 }
 
 .proj-desc{
-    width:368px;
+    width:300px;
     height:250px;       
     text-align: center;
     position: fixed;
@@ -441,13 +441,24 @@ footer hr {
         display: none;
     }
 
-    .proj-desc{
-        visibility: hidden;
+    .card{
+        width:350px;
+        height: 550px;
     }
 
-    .card:hover ,.proj-desc {
-        visibility:visible;
-        
+    .card img{
+        width:300px;
+        opacity: 1;
+    }
+    
+
+    .proj-desc{
+        position: static;
+    }
+
+    .card:hover  {
+        transform: none;
+        box-shadow: none;
     }
    
     
