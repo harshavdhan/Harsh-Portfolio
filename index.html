@@ -218,17 +218,10 @@
     </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        function startTypedLoop() {
-            var typed = new Typed('#element', {
-                strings: ['Web Developer', 'Web Designer', 'Graphic Designer'],
-                typeSpeed: 50,
-                onComplete: function() {
-                    setTimeout(startTypedLoop, 4000);
-                }
-            });
-        }
-
-        startTypedLoop();
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Graphic Designer'],
+            typeSpeed: 50,
+        });
     </script>
 </body>
 
