@@ -101,7 +101,7 @@ main {
 
 /* about */
 .about {
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 100px;
     min-height: 100vh;
 
@@ -155,7 +155,7 @@ main {
 
 /* skills */
 #skills {
-    min-height: 80vh;
+/*     min-height: 80vh; */
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
